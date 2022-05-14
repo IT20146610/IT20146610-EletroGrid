@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>User Management</title>
+	<link rel="stylesheet" href="Views/bootstrap.min.css">
+	<script src="Components/jquery-3.6.0.min.js"></script>
+</head>
+<body class="container-fluid card" style="width:40rem;">
+	<h2 class="bg-danger text-white text-center">User Registration</h2>
+	
+	<form action="register" method="post">
+    <table class="table table-hover">
+       <tr>
+        <td>User Name</td>
+        <td><input type="text" name="userName"></td>
+       </tr>
+       <tr>
+        <td>User Address</td>
+        <td><input type="text" name="userAddress"></td>
+       </tr>
+       <tr>
+        <td>User Account</td>
+        <td><input type="text" name="userAccount"></td>
+       </tr>
+       <tr>
+        <td>User Contact No</td>
+        <td><input type="text" name="userContact"></td>
+       </tr>
+        <tr>
+        <td>User Email</td>
+        <td><input type="text" name="userEmail"></td>
+       </tr>
+       <tr>
+        <td><input type="submit" value="register"></td>
+        <td><input type="reset" value="cancel"></td>
+       </tr>
+    </table>
+    <a href='userList'>User List</a>
+</form>
+</body>
+</html>
